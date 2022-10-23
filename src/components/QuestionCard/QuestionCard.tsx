@@ -1,5 +1,5 @@
 import React from 'react'
-import { AnswerObject } from '../App';
+import { AnswerObject } from '../../App';
 
 type Props = {
     question: string;
