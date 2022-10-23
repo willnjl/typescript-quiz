@@ -25,6 +25,6 @@ export const fetchQuizQuestions = async (amount: number, difficulty : Difficulty
 
     return data.results.map((question: Question) => ({
         ...question,
-        answer: shuffleArary([...question.incorrect_answers, question.correct_answer])
+        answers: shuffleArary([...question.incorrect_answers, question.correct_answer])
     }))
 }
