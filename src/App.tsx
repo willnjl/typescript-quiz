@@ -88,7 +88,7 @@ const App = () => {
         )}
         {!gameOver && (
           <p className='score'>
-            Score:
+            Score: {score}
           </p>
         )}
         {loading && (
